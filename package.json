@@ -24,9 +24,6 @@
         "eslint-plugin-bot-whatsapp": "latest",
         "eslint": "^8.52.0"
     },
-    "engines": {
-        "node": "20.x"
-    },
     "author": "",
     "license": "ISC"
 }
