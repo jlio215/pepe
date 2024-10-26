@@ -5,7 +5,7 @@
     "main": "app.js",
     "scripts": {
         "prestart": "npx eslint . --no-ignore",
-        "pre-copy": "cd .. && npm run  copy.lib base-baileys-json",
+        "pre-copy": "cd .. && npm run copy.lib base-baileys-json",
         "start": "node app.js"
     },
     "keywords": [],
@@ -23,6 +23,9 @@
     "devDependencies": {
         "eslint-plugin-bot-whatsapp": "latest",
         "eslint": "^8.52.0"
+    },
+    "engines": {
+        "node": ">=20.0.0"
     },
     "author": "",
     "license": "ISC"
